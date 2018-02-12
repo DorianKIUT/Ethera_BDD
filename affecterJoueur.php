@@ -9,10 +9,9 @@ $stmt->bindParam('idJoueur', $idJoueur);
 $stmt->bindParam('aventurierId', $idAventurier);
 if ($stmt->execute())
 {
-    echo $info = 'Suppression réussi';
     header('Location: index.php');
 }
 else
 {
-echo $info = 'Erreur lors de l afectation de l aventurier';
+echo $info = 'Une erreur non souhaité a eu lieu';
 }

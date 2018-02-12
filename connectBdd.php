@@ -1,9 +1,9 @@
 <?php
-// Variables de connection à la BDD
+//connection à la BDD
 $hostname = "localhost";
 $username = "root";
-$password = "root";
-$dbname = "etheradb";
+$password = "lpdip:17";
+$dbname = "Ethera";
 $bdd =null;
 
 // Connection à la bdd
